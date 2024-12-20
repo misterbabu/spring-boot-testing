@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoMethod {
     @GetMapping("/message")
     public String getMessage(){
-        return "Hello from Spring boot";
+        return "Hello from Spring boot!! How are you";
     }
 }
